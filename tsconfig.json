@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES5",
+        "module": "commonjs",
+        "lib": ["ES2015", "DOM"],
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "noEmitOnError": true
+    },
+    "files": ["index.ts"],
+    "compileOnSave": true
+}

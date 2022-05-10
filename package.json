@@ -1,0 +1,20 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "compile-ts": "npx tsc -w",
+        "watch-js": "npx nodemon ./dist/index.js",
+        "start": "concurrently \"npm run compile-ts\" \"npm run watch-js\""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.16",
+        "typescript": "^4.6.4"
+    },
+    "dependencies": {
+        "concurrently": "^7.1.0"
+    }
+}
